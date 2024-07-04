@@ -27,6 +27,11 @@ const ProjectsMarquee = () => {
           title="Modern Calulator"
           description="A sleek, fully functional calculator supporting basic arithmetic and advanced scientific functions. Designed for ease and efficiency in all your calculations."
         />
+        <ProjectCard
+          src="/pr5.png"
+          title="Food Deals Landing Page"
+          description="Find the best offers and discounts on local restaurants with our clean and responsive HTML and CSS site."
+        />
       </Marquee>
 
       <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-background"></div>
