@@ -4,7 +4,7 @@ Welcome to my Web3 Developer Portfolio! This space-themed portfolio showcases my
 
 ## Website
 
-Visit the live website here: [Portfolio](https://main--shiny-kringle-ec19a4.netlify.app/)
+Visit the live website here: [Portfolio](https://abhai-matta-portfolio.netlify.app/)
 
 ## Features
 

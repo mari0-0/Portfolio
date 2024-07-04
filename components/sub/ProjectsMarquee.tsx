@@ -22,6 +22,11 @@ const ProjectsMarquee = () => {
           title="NFT Raffle Website"
           description="Participate in fair and transparent NFT raffles powered by Solidity smart contracts. Enjoy a secure and innovative experience in the world of digital collectibles."
         />
+        <ProjectCard
+          src="/pr4.png"
+          title="Modern Calulator"
+          description="A sleek, fully functional calculator supporting basic arithmetic and advanced scientific functions. Designed for ease and efficiency in all your calculations."
+        />
       </Marquee>
 
       <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-background"></div>

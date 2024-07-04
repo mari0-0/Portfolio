@@ -11,7 +11,7 @@ import { FaGithub } from "react-icons/fa";
 const Projects = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center py-20"
+      className="flex flex-col items-center justify-center py-20 mb-80"
       id="projects"
     >
       <TextRevealByWord text="My Projects" />
@@ -22,7 +22,7 @@ const Projects = () => {
 
         <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
         <a className="flex flex-row justify-center items-center Welcome-text text-[13px]" href="https://github.com/mari0-0" target="_blank" rel="noopener noreferrer">
-          <span className="mr-1"> Project in my GitHub</span> 
+          <span className="mr-1"> Projects in my GitHub</span> 
           <FaGithub color="white" />
         </a>
       </motion.div>
