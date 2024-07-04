@@ -37,7 +37,7 @@ export const TextRevealByWord: FC<TextRevealByWordProps> = ({
             const start = i / words.length;
             const end = start + 1 / words.length;
             return (
-              <span className="mt-5 mr-1 text-white/20 flex items-center justify-center">
+              <span className="mt-5 mr-1 text-white/20 flex items-center justify-center" key={i}>
                 <Word key={i} progress={scrollYProgress} range={[start, end]}>
                   {word}
                 </Word>

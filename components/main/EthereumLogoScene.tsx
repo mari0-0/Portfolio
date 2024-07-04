@@ -43,22 +43,9 @@ const EthereumLogo = () => {
 };
 
 const EthereumLogoScene = () => {
-  const orbitControlsRef = useRef<OrbitControls>(null);
+  const orbitControlsRef = useRef(null);
 
-  useEffect(() => {
-    if (orbitControlsRef.current) {
-      orbitControlsRef.current.mouseButtons.set({
-        LEFT: 'ROTATE',
-        MIDDLE: 'DOLLY',
-        RIGHT: 'PAN',
-      });
-      orbitControlsRef.current.touches.set({
-        ONE: 'ROTATE',
-        TWO: 'DOLLY',
-        THREE: 'PAN',
-      });
-    }
-  }, []);
+
 
   return (
     <Canvas
